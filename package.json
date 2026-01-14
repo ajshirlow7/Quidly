@@ -1,0 +1,27 @@
+{
+  "name": "tech-price-compare",
+  "version": "0.0.1",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc -b && vite build",
+    "preview": "vite preview",
+    "check:links": "tsx scripts/check-links.ts"
+  },
+  "dependencies": {
+    "lucide-react": "^0.401.0",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  },
+  "devDependencies": {
+    "@types/react": "^18.3.3",
+    "@types/react-dom": "^18.3.3",
+    "@vitejs/plugin-react": "^4.3.4",
+    "autoprefixer": "^10.4.20",
+    "postcss": "^8.4.32",
+    "tsx": "^4.7.0",
+    "typescript": "^5.4.5",
+    "vite": "^5.2.10"
+  }
+}
